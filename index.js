@@ -68,6 +68,7 @@ app.use(
       "http://31.97.125.62:3000",
       "http://31.97.125.62:5000",
       "http://localhost:3000",
+      "https://production-gamma-roan.vercel.app",
     ],
     optionsSuccessStatus: 200,
     allowedHeaders: ["Content-Type", "Authorization"],

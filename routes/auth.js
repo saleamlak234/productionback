@@ -230,7 +230,8 @@ router.post("/forgot-password", async (req, res) => {
     await user.save();
 
     // Send email
-    const resetUrl = `http://www.sahamtradingplc.com/reset-password?token=${resetToken}`;
+    // const resetUrl = `http://www.sahamtradingplc.com/reset-password?token=${resetToken}`;
+    const resetUrl = `https://production-gamma-roan.vercel.app/reset-password?token=${resetToken}`;
     const resetEmail = await sendEmail({
       sendTo: email,
       subject: "Password Reset Request",
