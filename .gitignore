@@ -1,0 +1,14 @@
+# .gitignore for server
+node_modules/
+dist/
+.env
+*.log
+tmp/
+.DS_Store
+.env.production
+.env.development
+.env.test
+.env.staging
+
+
+
